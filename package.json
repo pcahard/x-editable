@@ -1,19 +1,31 @@
 {
-  "name": "X-editable",
-  "title": "X-editable",
-  "description": "In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery",
-  "version": "1.5.1",
-  "homepage": "http://github.com/vitalets/x-editable",
+  "name": "yeditable",
+  "title": "yeditable",
+  "description": "In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery (fork of x-editable http://vitalets.github.io/x-editable)",
+  "version": "1.5.2",
+  "homepage": "https://github.com/pcahard/yeditable",
+  "main": "dist/bootstrap3-editable/js/bootstrap-editable.js",
   "author": {
     "name": "Vitaliy Potapov",
     "email": "noginsk@rambler.ru"
   },
+  "files": [
+    "dist/bootstrap3-editable/css/bootstrap-editable.css"
+    "dist/bootstrap3-editable/img/loading.gif"
+    "dist/bootstrap3-editable/img/clear.png"
+    "dist/bootstrap3-editable/js/bootstrap-editable.js"
+    "dist/bootstrap3-editable/js/bootstrap-editable.min.js"
+
+    "dist/bootstrap-editable/css/bootstrap-editable.css",
+    "dist/bootstrap-editable/img/loading.gif",
+    "dist/bootstrap-editable/img/clear.png",
+    "dist/bootstrap-editable/js/bootstrap-editable.js",
+    "dist/bootstrap-editable/js/bootstrap-editable.min.js",
+
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/vitalets/x-editable.git"
-  },
-  "bugs": {
-    "url": "https://github.com/vitalets/x-editable/issues"
+    "url": "https://github.com/pcahard/yeditable.git"
   },
   "licenses": [
     {
