@@ -9,7 +9,7 @@
 
     $.extend(Checkbox.prototype, {
         value2input: function(value) {
-            var checked = ('1' === value)?true:false;
+            var checked = ('1' === value || 'true' === value)?true:false;
             this.$input.prop('checked', checked);
         },  
         
