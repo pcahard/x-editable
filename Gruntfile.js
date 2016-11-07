@@ -84,7 +84,8 @@ function getFiles() {
         inputs+'html5types.js',
         inputs+'select2/select2.js',
         inputs+'combodate/lib/combodate.js', 
-        inputs+'combodate/combodate.js'    
+        inputs+'combodate/combodate.js',
+        inputs+'checkbox.js'
     ]; 
 
     //common css files

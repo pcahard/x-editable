@@ -688,7 +688,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
 
     $.fn.editable.defaults = {
         /**
-        Type of input. Can be <code>text|textarea|select|date|checklist</code> and more
+        Type of input. Can be <code>text|textarea|select|date|checklist|checkbox</code> and more
 
         @property type 
         @type string

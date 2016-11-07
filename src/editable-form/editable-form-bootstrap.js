@@ -21,7 +21,7 @@ Editableform based on Twitter Bootstrap 2
             
             //add bs2 default class to standard inputs
             //if(this.input.$input.is('input,select,textarea')) {
-            var stdtypes = 'text,select,textarea,password,email,url,tel,number,range,time'.split(','); 
+            var stdtypes = 'text,select,textarea,password,email,url,tel,number,range,time,checkbox'.split(','); 
             if(~$.inArray(this.input.type, stdtypes) && emptyInputClass) {
                 this.input.options.inputclass = defaultClass;
                 this.input.$input.addClass(defaultClass);
