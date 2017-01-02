@@ -1,7 +1,7 @@
 /*! yeditable - v1.5.3 
 * In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery (fork of x-editable http://vitalets.github.io/x-editable)
 * https://github.com/pcahard/yeditable
-* Copyright (c) 2016 Vitaliy Potapov; Licensed MIT */
+* Copyright (c) 2017 Vitaliy Potapov; Licensed MIT */
 /**
 Form with single input element, two buttons and two states: normal/loading.
 Applied as jQuery method to DIV tag (not to form tag!). This is because form can be in loading state when spinner shown.
